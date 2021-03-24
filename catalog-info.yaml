@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "test-01"
+  description: "description"
+  annotations:
+    github.com/project-slug: mlulekindala/techdocs-01
+    backstage.io/techdocs-ref: url:https://github.com/mlulekindala/techdocs-01
+spec:
+  type: documentation
+  lifecycle: experimental
+  owner: "guest"
